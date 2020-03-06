@@ -267,11 +267,13 @@ Partial Class Form1
         '
         'RichTextBox1
         '
-        Me.RichTextBox1.Location = New System.Drawing.Point(0, 0)
+        Me.RichTextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RichTextBox1.Location = New System.Drawing.Point(0, 12)
         Me.RichTextBox1.Name = "RichTextBox1"
-        Me.RichTextBox1.Size = New System.Drawing.Size(271, 208)
+        Me.RichTextBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.RichTextBox1.Size = New System.Drawing.Size(271, 196)
         Me.RichTextBox1.TabIndex = 24
-        Me.RichTextBox1.Text = ""
+        Me.RichTextBox1.Text = "0"
         '
         'Form1
         '
